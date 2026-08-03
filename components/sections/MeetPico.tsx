@@ -4,7 +4,7 @@ import { PicoCharacter } from "@/components/pico/PicoCharacter";
 
 const facts = [
   "Automates the repetitive parts of your workflow in the background.",
-  "A simple light-based face that reacts to you, not a screen to manage.",
+  "An expressive mouth that reacts to you, not a screen to manage.",
   "No app to open. He's already where your hand already is.",
 ];
 

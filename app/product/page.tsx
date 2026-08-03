@@ -29,9 +29,9 @@ const comparisons = [
 ];
 
 const expressions = [
-  { name: "Focused", body: "A steady, calm glow while you're deep in work." },
-  { name: "Idle", body: "A slow blink when you've stepped away for a while." },
-  { name: "Encouraging", body: "A brief warm pulse before a task you've been putting off." },
+  { name: "Focused", body: "A relaxed, steady mouth while you're deep in work." },
+  { name: "Idle", body: "A softer, quieter curve when you've stepped away for a while." },
+  { name: "Encouraging", body: "A brief, warmer smile before a task you've been putting off." },
 ];
 
 export default function ProductPage() {
@@ -101,13 +101,14 @@ export default function ProductPage() {
             <div>
               <Eyebrow>The face</Eyebrow>
               <h2 className="mb-5 text-[28px] md:text-[34px]">
-                A light, not a screen.
+                A mouth, not a screen.
               </h2>
               <p className="mb-8 max-w-[480px] text-[17px] text-ink-soft">
                 Pico doesn&apos;t have a display to check or notifications
-                to manage. His whole expressive range lives in two small
-                lights — enough to feel present, never enough to demand
-                your attention.
+                to manage. There&apos;s no pair of eyes tracking you, either
+                — his whole expressive range lives in the curve of one
+                small mouth. Enough to feel present, never enough to
+                demand your attention.
               </p>
               <div className="space-y-5">
                 {expressions.map((expr) => (

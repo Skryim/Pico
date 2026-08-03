@@ -45,9 +45,9 @@ const config: Config = {
         content: "1160px",
       },
       keyframes: {
-        blink: {
-          "0%, 92%, 100%": { transform: "scaleY(1)" },
-          "96%": { transform: "scaleY(0.08)" },
+        "content-pulse": {
+          "0%, 100%": { transform: "scaleX(1)" },
+          "50%": { transform: "scaleX(1.12)" },
         },
         bob: {
           "0%, 100%": { transform: "translateY(0)" },
@@ -55,7 +55,7 @@ const config: Config = {
         },
       },
       animation: {
-        blink: "blink 5.5s infinite",
+        "content-pulse": "content-pulse 3.2s ease-in-out infinite",
         bob: "bob 4.2s ease-in-out infinite",
       },
     },

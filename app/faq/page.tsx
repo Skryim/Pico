@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "How does the emotional support part actually work?",
     answer:
-      "Through presence more than conversation — a light-based face that reacts to you, subtle timing around encouragement, and simply being consistently there through long sessions, rather than a chat window you have to open.",
+      "Through presence more than conversation — an expressive mouth that reacts to you, subtle timing around encouragement, and simply being consistently there through long sessions, rather than a chat window you have to open.",
   },
   {
     question: "What will pricing look like?",
