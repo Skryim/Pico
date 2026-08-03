@@ -5,6 +5,7 @@ import { Container } from "@/components/ui/Container";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
 import { PicoCharacter } from "@/components/pico/PicoCharacter";
+import { PrototypeGallery } from "@/components/sections/PrototypeGallery";
 
 export const metadata: Metadata = {
   title: "Product",
@@ -123,6 +124,8 @@ export default function ProductPage() {
             </div>
           </Container>
         </section>
+
+        <PrototypeGallery />
 
         <section className="bg-blue-deep py-[70px] text-white md:py-[100px]">
           <Container className="mx-auto max-w-[640px] text-center">
